@@ -1,8 +1,8 @@
 var input = document.querySelector("#demo");
-var allButtonsArray = document.getElementsByTagName("button");
+var button = document.getElementsByTagName("button");
 
-for (let index = 0; index < allButtonsArray.length; index++) {
-  allButtonsArray[index].addEventListener("click", function (event) {
+for (let index = 0; index < button.length; index++) {
+  button[index].addEventListener("click", function (event) {
     if (event.target.innerHTML === "=") {
       input.value = eval(input.value);
     } else {
