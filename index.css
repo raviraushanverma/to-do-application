@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    border: 5px solid red;
+}
+button {
+    padding: 30px;
+}
+.searchitem {
+    width: 100%;
+    padding: 10px;
+}
